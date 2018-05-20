@@ -1,1 +1,2 @@
 1. incorporate `Google Ngram` or similar api to list the possible words according to the frequency instead of the alphabet order to give the user a clearer idea which words are more likely to be the answer
+2. using another dictionary to reduce uncommon words

@@ -11,7 +11,7 @@ from helper import classify, isword
 
 i = 0
 mapping = dict()
-words = [line.rstrip('\n') for line in open("words.txt", "r")]
+words = [line.rstrip('\n') for line in open(sys.argv[1], "r")]
 for word in words:
     i += 1
     if i % 10000 == 0:
@@ -21,6 +21,7 @@ for word in words:
         sys.stdout.flush()
 
     if not isword(word):
+        # print(word)
         continue
 
     word = word.lower()

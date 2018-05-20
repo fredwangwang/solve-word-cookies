@@ -21,6 +21,8 @@ def isword(word):
     (e.g. NCO, 1st, 2,4-d). We don\'t want those words appear
     in the final result. But words like `Bear, Camp`, we do
     want to keep them'''
+    if len(word) == 0:
+        return False
 
     if word[0] not in string.ascii_letters:
         return False
