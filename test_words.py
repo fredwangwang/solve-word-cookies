@@ -1,13 +1,10 @@
 import sys
 import string
 import itertools
-
-try:
-    import cPickle as pickle
-except:
-    import pickle
+import pickle
 
 from helper import classify
+
 
 if len(sys.argv) == 1:
     print("Usage: python " + sys.argv[0] + " letters num")
