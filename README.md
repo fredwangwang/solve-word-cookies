@@ -3,8 +3,10 @@ A simple "hack" to the game Word Cookies.
 
 I found myself struggling with the game (see a screenshot below), figured I need some sort of help... So I made this one.
 
-Sample usage:
+## Dependencies
+* Python (both 2 & 3 tested, 3 is recommanded due to better pickle implementation)
 
+## Sample usage:
 ```
 # create a word mapping (only required once):
 python3 create_mapping.py words-eng-common.txt
