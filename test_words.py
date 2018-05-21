@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import sys
 import string
 import itertools
